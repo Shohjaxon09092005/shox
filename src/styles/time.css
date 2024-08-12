@@ -1,0 +1,9 @@
+.time .details_soat_logo{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.time .details_btn{
+    margin-top: 150px;
+}

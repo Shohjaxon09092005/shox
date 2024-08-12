@@ -1,0 +1,38 @@
+.royxat_wrap{
+    width: 85%;
+    margin: 0 auto;
+}
+.kar_dori{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.royxat_bg{
+    background-color: #e6eff9;
+
+}
+.royxat h3{
+    margin-top: 30px;
+    font-weight: 800;
+
+}
+.kar_dori h4{
+    opacity: 0.6;
+}
+.royxat button{
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    border: none;
+    background-color: #555fd2;
+    border-radius: 10px;
+    margin-top: 450px;
+    margin-bottom: 30px;
+
+}

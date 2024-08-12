@@ -1,0 +1,82 @@
+.hero_banner .hero_avatar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+/* .hero  button{
+    display: none;
+} */
+.hero_banner .heroCard_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero_banner .heroCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero_banner .heroCard_eyes .hero_btn1{
+    display: none;
+}
+.hero .hero_grid .heroCard_eyes .hero_btn2{
+    display: none;
+}
+.hero_banner .heroCard_content h5{
+    display: none;
+}
+.hero_banner .heroCard_eyes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero_banner .eyes_img{
+    width: 50%;
+    margin: 0 auto;
+}
+.hero_banner .heroBanner_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    margin: 0 auto;
+    background-color:  #e6eff9;
+    padding-top: 30px;
+}
+.hero_banner .heroCard{
+    width: 90%;
+
+
+
+
+}
+.heroBanner_header{
+    padding: 20px 0;
+    text-align: center;
+    background-color:  #555fd2;
+    display: flex;
+    
+    gap: 40px;
+    padding-left: 10%;
+
+
+}
+.heroBanner_header h3{
+    color: white;
+    opacity: 0.9;
+
+}
+.hero_banner .heroCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px 5px;
+
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,115 @@
+.telDoc_wrapper {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.telDoc_wrapper img {
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+.telDoc_wrapper p {
+    color: #555fd2;
+}
+
+.telDoc_wrapper h2,
+h4 {
+    font-weight: 800;
+}
+
+.telDoc_bg {
+    background-color: #e6eff9;
+}
+
+.telDoc_header {
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.telDoc_logo {
+    width: 83%;
+    margin: 0 auto;
+    margin-top: 250px;
+    padding-bottom: 20px;
+}
+.telDoc_logo img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.videoDoc_logo img {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.videoDoc_logo {
+    background-color: #e6eff9;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+}
+
+.videoDoc_bg {
+    background-color: #555fd2;
+}
+
+.videDoc_content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.videDoc_content img {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.videoDoc_header {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    align-items: flex-start;
+    gap: 220px;
+    right: 600px;
+    top: 40px;
+}
+
+.videoDoc_header img{
+    border-radius: 10px;
+    border: 3px solid white;
+}
+.videoDoc_header a img{
+    border-radius: 0px;
+    border: 0px solid white;
+}
+.videDoc_content img{
+    margin: 0 auto;
+    width: 100%;
+}
+@media(max-width:430px){
+   .videoDoc_header{
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    align-items: flex-start;
+    gap: 220px;
+    left: 30px;
+    top: 40px;
+}
+   }

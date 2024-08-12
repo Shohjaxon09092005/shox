@@ -1,0 +1,134 @@
+.docPro_logo{
+    display: flex;
+    align-items:center;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    
+}
+.docPro_header .doc_logo{
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.293);
+}
+.doc_header_content_wrapper{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.doc_header_content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.docPro_header{
+    width: 85%;
+    margin: 0 auto;
+}
+.doc_header_star{
+    display: flex;
+    align-items: center;
+}
+.bac_img{
+    background-color: #e6eff9;
+    padding-top: 20px;
+}
+.doc_header_content h4{
+    font-weight: 800;
+}
+.doc_header_content p{
+    opacity: 0.6;
+    font-size: 14px;
+}
+.doc_header_content h5{
+    opacity: 0.5;
+    font-size: 14px;
+}
+.doc_header_star h6{
+    font-size: 14px;
+
+}
+.blue_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+}
+.blue_logo_content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.blue_logo_content img {
+    border-radius: 50px;
+
+}
+.blue_wrapper{
+    background-color: #555fd2;
+    margin-top: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-top: 40px;
+}
+.blue_cont_num h4{
+    color: white;
+    opacity: 0.8;
+
+}
+.blue_cont_num h5{
+    color: white;
+    opacity: 0.6;
+
+}
+.details_content{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.details{
+    background-color: white;
+    margin-top: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-top: 30px;
+    
+}
+.details_content h4{
+    opacity: 0.6;
+}
+.details_content p{
+    opacity: 0.6;
+}
+
+.details_btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.docPro .details_btn  .det_btn  {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #555fd2;
+    color: white;
+    font-size: 16px ;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.docPro .details_btn  .det_btn a  {
+  
+    color: white;
+    font-size: 16px ;
+    font-weight: 700;
+}

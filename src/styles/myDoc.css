@@ -1,0 +1,30 @@
+.myDOc_header{
+    background-color: #555fd2;
+}
+.myDoc_img{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    margin: 0 auto;
+    color: white;
+}
+.myDoc .hero_grid button{
+    display: none;
+}
+.myDoc .hero_grid .heroCard{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.myDoc .hero_grid{
+    background-color: #e6eff9;
+    padding: 30px 0;
+}

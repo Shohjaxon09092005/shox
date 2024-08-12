@@ -1,0 +1,159 @@
+.nav_header_bg {
+    color: white;
+    width: 100%;
+    background-color: #555fd2;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.navbat_header {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.navbat_card {
+    background-color: #e6eff9;
+
+    padding-top: 30px;
+
+}
+
+.navbat_card .navbat_card_btn_kun h4 {
+    color: black;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+.navbat_card_btn_kun {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.navbat_kun_btn button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.navbat_kun_btn button:hover {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #555fd2;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.navbat_kun_btn button img {
+    border-radius: 5px;
+}
+
+.navbat_kun_btn {
+    display: flex;
+    gap: 10px;
+}
+
+.navbat_kun_soat_btn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 40px;
+
+}
+
+.navbat_kun_soat_btn button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    /* opacity: 0.5; */
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.411);
+}
+
+.navbat_kun_soat_btn button:hover {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: #555fd2;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+
+.navbat_info .info_btn {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info_btn button {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+.info_btn button:hover {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    background-color:#555fd2;
+    border-radius: 10px;
+    color: white;
+}
+.info_btn_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.info_btn_cont p{
+    opacity: 0.6;
+
+}
+.info_btn button img{
+    border-radius: 5px;
+}
+.info_btn h3{
+    color: black;
+    opacity: 0.5;
+    font-size: 16px;
+    font-weight: 800;
+}
+.davom{
+    background-color: #555fd2;
+    width: 100%;
+    margin: 150px  auto 30px auto;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+
+  
+}

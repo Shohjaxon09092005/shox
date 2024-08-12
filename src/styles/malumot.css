@@ -1,0 +1,91 @@
+.malumot_name{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.malumot_name h3{
+    opacity: 0.5;
+
+    font-size: 20px;
+}
+.malumot_width{
+    width: 85%;
+    margin: 0 auto;
+}
+.malumot_text{
+    margin-top: 10px;
+}
+.malumot_text p{
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+.malumot_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.malumot_btn button{
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.374);
+    /* background-color: #555fd2; */
+
+}
+.malumot_btn button:hover{
+    padding: 15px 10px;
+    border: none;
+    border-radius: 10px;
+
+    font-weight: 800;
+    background-color: #555fd2;
+    color: white;
+
+}
+.malumot_check_text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.malumot_check{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.malumot_check_text p{
+    opacity: 0.6;
+}
+.malumot_mal h3{
+    opacity: 0.6;
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.mal_cont{
+    padding: 15px 2px 15px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.351);
+    border-radius: 10px;
+}
+.mal_cont p{
+    opacity: 0.6;
+}
+.mal_btn {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    color: white;
+    background-color: #555fd2;
+    margin-top: 150px;
+    margin-bottom: 30px;    
+
+}

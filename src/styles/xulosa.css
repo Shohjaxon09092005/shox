@@ -1,0 +1,96 @@
+.xulosa_header_bg {
+    background-color: #555fd2;
+
+}
+.xulosa_header{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    color: white;
+}
+
+.xulosa_bg{
+    background-color: #e6eff9;
+
+}
+.xulosa_logo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.xulosa_logo img{
+    margin: 0 auto;
+}
+.xulosa_logo img:nth-of-type(1){
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.422);
+    margin: 0 auto;
+}
+.xulosa_logo p{
+    color: #555fd2;
+    font-weight: 800;
+}
+.xulosa_cont{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;justify-content: space-between;
+    margin-top: 50px;
+}
+.xulosa_cont h4 ,h6{
+    opacity: 0.6;
+}
+.input_xulosa{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.333);
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.input_xulosa p{
+    opacity: 0.5;
+}
+.xulosa_check {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.xulosa_check h3{
+    opacity: 0.5;
+    font-size: 17px;
+}
+.check_card{
+    display: flex;
+    gap: 10px;
+}
+.xulosaCheck {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.check_card p{
+    opacity: 0.6;
+}
+.xulosa_check button{
+    width: 100%;
+    padding: 8px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #555fd2;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    color: white;
+}
